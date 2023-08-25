@@ -3,9 +3,9 @@ const { Client } = require('pg');
 
 const client = new Client({
     user: 'sgpostgres',
-    host: 'SG-postgre1-4876-pgsql-master.servers.mongodirector.com',
+    host: 'SG-postgre1-...',  // copy from scalegrid 
     database: 'postgres',
-    password: '3&nfoTpFivfM0C7I',
+    password: '', // deleted 
     port: 5432,
 });
 
